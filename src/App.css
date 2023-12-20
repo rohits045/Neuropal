@@ -1,38 +1,446 @@
-.App {
+
+.App-logo{
+  height: 50px;
+margin-left: -110px;
+}
+
+
+.navbar1 {
+  height: 74px;
+  width: 1024px;
+  display: flex;
+  color: white;
+  background-color: rgba(116, 173, 220, 0.985);
+  opacity: 100%;
+  border-radius: 40px;
+  padding-top: 40px;
+  padding-left: 128px;
+  padding-right: 128px;
+  margin-top: 40px;
+
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+
+}
+
+.hero1 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.nav-item {
+  padding-left: 34px;
+}
+
+.navbar-nav {
+
+  margin-left: 40px;
+}
+
+.nav-a{
+  text-decoration: none;
+    color: aliceblue;
+  }
+
+
+
+
+  
+  /* services css */
+
+  #service{
+    text-align:center;
+    margin-top:105px;
+    font-size:50px;
+    color:light;
+    
+  }
+
+  .card-title{
+    text-align: center;
+    color: rgb(103, 98, 98);
+  }
+.card-img-top{
+  width: 350px;
+  height: 350px;
+}
+  .flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 350px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  display: flex;
+  margin: auto;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgb(158, 200, 242);
+  color: rgb(100, 99, 99);
+  transform: rotateY(180deg);
+  font: bolder;
+  font-size: larger;
+  text-align: center;
+  
+}
+
+
+
+
+
+/* For Footer */
+
+
+/* for footer */
+.container {
+  display: flex;
+  grid-template-columns: auto auto auto auto ;
+  gap: 90px;
+}
+
+#footer {
+  /* position: fixed;
+    bottom: 0; */
+    bottom: 0;
+    position: relative;
+    width: 100%;
+  display: grid;
+  padding: 10px;
+  background-color: #657099;
+  height: 270px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+  font-weight: 0.5px;
+  margin-top:50px
+}
+
+/* footer color */
+.fc {
+  color: azure;
+}
+
+/* footer headlines */
+.line {
+  color: azure;
+
+}
+
+ .vertical {
+   border-left: 2px solid azure;
+   height: 200px;
+   position: absolute;
+   left: 28%;
+ }
+
+#div1,
+
+#ul1,
+#about {
+  width: 8cm;
+  list-style-type: none;
+
+margin-top: 50px;
+}
+
+#ul2,
+.service{
+  width: 5cm;
+  list-style-type: none;
+  text-decoration: none;
+  color: azure;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+
+#ul4 {
+  width: 6cm;
+  color: white;
+  list-style-type: none;
+    margin-top: 10px;
+      padding: 10px;
+}
+
+#ul5 {
+  list-style-type: none;
+  padding: 5px;
+  font-size: 27px;
+    margin-top: 10px;
+  padding: 10px;
+}
+
+#fa,
+#tw,
+#dr,
+#lin {
+  /* margin: 4px; */
+  color: azure;
+}
+
+.fa {
+  /* border: 0.5px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: wheat; */
+  color: azure;
+  
+}
+
+#tw {
+  border: 0.5px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: wheat;
+}
+
+#dr {
+  border: 0.5px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: wheat;
+}
+
+/* #lin {
+  border: 0.5px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: wheat;
+} */
+
+#copy{
+  text-align: center;
+  margin-top: -20px;
+  color: azure;
+}
+
+#div1{
+  color: azure;
+  margin-right: 50px;
+  text-align: center;
+ 
+  justify-content: center;
+}
+
+
+
+/* tagline */
+
+.tagline{
+  color: azure;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+
+/* 
+for consulting page  */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+/* navbar style start  */
+
+.main-nav {
+  width: 100%;
+  height: 10rem;
   display: flex;
-  flex-direction: column;
+}
+
+.logo {
+  justify-content: start;
   align-items: center;
+  height: 2rem;
+  width: 2rem;
+}
+.menu-link{
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ----------- Grid part ends ----------------- */
+
+
+
+.Doc-flip-cards {
+  height: 80vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: row;
+  margin-top:-250px;
+
+}
+@media (max-width: 1080px) {
+}
+.Doc-flip-cards{
+  display: flex;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  width:300px;height:300px
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  width:300px;height:300px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: azure;
   color: white;
+  transform: rotateY(180deg);
+  width:300px;height:300px;
+}
+.whatsapp{
+  width: 20%;
+  height: 20%;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.card{
+  width:370px;
+  height: 370px;
+  display: flex;
+  margin: auto;
+ background-image: linear-gradient(#63beff , azure);
+ border-radius: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  color:grey ;
+}
+
+h1{
+  background-image:linear-gradient(#63beff,skyblue)
+}
+
+.tagline{
+  margin-top:90px;
+}
+
+
+/* consulting */
+
+.avtar{
+  width:300px;
+  height:300px;
+}
+
+
+
+
+/* why us  */
+
+#why{
+  color:black;
+font-size:50px;
+margin-top:55px;
+}
+
+.advTitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+.advTitle h1{
+    text-shadow: 1px 1px #141414;
+}
+.advList{
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.advList p{
+    font-size: 1.1rem;
+    line-height: 30px;
+    border: 1px solid #e5e7eb;
+    border-radius: 55px;
+    width: 100%;
+    padding: 13px;
+    color:darkblue;
+}
+.advP:hover{
+    border: 2px solid #5CE1E6;
+    
+
+}
+
+span{
+color: #5CE1E6;
 }

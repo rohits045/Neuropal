@@ -1,0 +1,29 @@
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    color: rgb(149, 174, 237);
+
+}
+
+.navbar-brand {
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+.navbar {
+    opacity: 50%;
+    /* background-color: rgb(110, 175, 240); */
+    display: flex;
+    width: auto;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.nav-item{
+      color: aliceblue;
+    }
+
+.App-logo{
+    margin-bottom: 1.5rem !important;
+    margin-left: -110px;
+}
